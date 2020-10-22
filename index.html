@@ -1,117 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Baigiamasis Projektas</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Allura"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
-<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
-<body>
-
+  <body>
     <!-- Header -->
-     <header>
-        <h1>Body Wonders</h1>
-     </header>
+    <header>
+      <h1>Body Wonders</h1>
+    </header>
 
-   <!-- Navbar -->
-
-   <div class="navbar">
-    <a href="#new">New</a>
-    <a href="#brands">Brands</a>
-    <a href="#offers">Offers</a>
-    <div class="dropdown dropdown-1">
-      <button class="dropbtn">Face Skincare
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content dropdown-content-1">
-        <a href="#">Cleaners</a>
-        <a href="#">Serums</a>
-        <a href="#">Moisturisers</a>
-        <a href="#">Mask & Exfolators</a>
-        
+    <!-- Navbar -->
+    <div class="navbar">
+      <a href="#new">New</a>
+      <a href="#brands">Brands</a>
+      <a href="#offers">Offers</a>
+      <div class="dropdown dropdown-1">
+        <button class="dropbtn">
+          Face Skincare
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content dropdown-content-1">
+          <a href="#">Cleaners</a>
+          <a href="#">Serums</a>
+          <a href="#">Moisturisers</a>
+          <a href="#">Mask & Exfolators</a>
+        </div>
+      </div>
+      <div class="dropdown dropdown-2">
+        <button class="dropbtn">
+          Body Skincare
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content dropdown-content-2">
+          <a href="#">Bath & Sower</a>
+          <a href="#">Moisturisers</a>
+          <a href="#">Exfoliate & Scrub</a>
+          <a href="#">Sun & Tanning</a>
+        </div>
       </div>
     </div>
-    <div class="dropdown dropdown-2">
-      <button class="dropbtn">Body Skincare
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content dropdown-content-2">
-        <a href="#">Bath & Sower</a>
-        <a href="#">Moisturisers</a>
-        <a href="#">Exfoliate & Scrub</a>
-        <a href="#">Sun & Tanning</a>
+
+    <!-- Best sellers -->
+    <!-- Slideshow container -->
+    <!-- Text -->
+    <div class="bestsellers">
+      <h2 class="line-background"><span>BEST SELLERS</span></h2>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="flex-column">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/BobbyBrown.jpg" style="width: 100%" />
+            <div class="text">Bobby Brown</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flex-column">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/Horex.jpg" style="width: 100%" />
+            <div class="text">Horex</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flex-column">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/SuperFacial.jpg" style="width: 100%" />
+            <div class="text">The Ordinary</div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Best sellers -->
-  <!-- Slideshow container -->
-  <!-- Text -->
-  <div class='bestsellers'>
-    <h2 class="background"><span>BEST SELLERS</span></h2>
-  </div>
+    <!-- Trending offer -->
+    <div class="trending">
+      <h3 class="line-background"><span>TRENDING</span></h3>
+      <div class="photo-trending">
+        <img src="/assets/StBarthBodOil.jpg" style="widows: 40px" />
+      </div>
+    </div>
 
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="/assets/Bobby Brown.jpg" style="width:100%">
-    <div class="text">Bobby Brown</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="/assets/The Ordinary.jpg" style="width:100%">
-    <div class="text">The Ordinary</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="/assets/Botanical Republic.jpg" style="width:100%">
-    <div class="text">Botanical Republic</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-
-
-<!-- Trending offer -->
-   <div class="trending">
-    <h3 class="background"><span>TRENDING</span></h3>
-    <img src="/assets/St Barth Body Oil.jpg" style="widows: 40px;">
-   </div>
-   <!-- Footer -->
-   <footer class="extra-menu">
-     <div class="get-social">
-       <h4>GET SOCIAL</h4>
-     </div>
-    <a href="#"><i class="fa fa-facebook-official"></i></a>
-    <a href="#"><i class="fa fa-pinterest-p"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-flickr"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <p class="about">
-      Body Wonders is the insider's guide to the world's best face and body care products.
-      Each of the body products is chosen by our world-class expert panel for it's efficiancy and stand-alone-brilliance.      
-  </footer>
-   <script src="/scripts/app.js"></script>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    </body>
+    <!-- Footer -->
+    <footer class="extra-menu">
+      <div class="get-social">
+        <h4>GET SOCIAL</h4>
+      </div>
+      <a href="#"><i class="fa fa-facebook-official"></i></a>
+      <a href="#"><i class="fa fa-pinterest-p"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-flickr"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <p class="about">
+        Body Wonders is the insider's guide to the world's best face and body
+        care products. Each of the body products is chosen by our world-class
+        expert panel for it's efficiancy and stand-alone-brilliance.
+      </p>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
 </html>
-
